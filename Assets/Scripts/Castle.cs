@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using DG.Tweening;
-
+[RequireComponent(typeof(BoxCollider2D))]
 public class Castle : MonoBehaviour
 {
     [Header("Visual Settings")]
-    [SerializeField] private float bounceAmount = 0.15f;
-    [SerializeField] private float duration = 0.1f;
+    [SerializeField] private float bounceAmount = 0.5f;
+    [SerializeField] private float duration = 0.25f;
 
     private Vector3 originalScale;
 

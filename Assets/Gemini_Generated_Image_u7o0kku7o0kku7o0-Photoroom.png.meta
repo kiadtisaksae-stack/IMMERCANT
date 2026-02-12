@@ -1,0 +1,2730 @@
+fileFormatVersion: 2
+guid: f3d039f4e6a22f14296ced4ce66c0a9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 932603399587846337
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_0
+  - first:
+      213: -553382012442644487
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_1
+  - first:
+      213: 7933158764004669000
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_2
+  - first:
+      213: 480202183557908262
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_3
+  - first:
+      213: 2201867194477923418
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_4
+  - first:
+      213: -1648300498253859395
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_5
+  - first:
+      213: 1063367083109152908
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_6
+  - first:
+      213: -8390283963702089843
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_7
+  - first:
+      213: -6170927453466627516
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_8
+  - first:
+      213: 2579098379548956174
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_9
+  - first:
+      213: -5487440923146281124
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_10
+  - first:
+      213: -7495596804543887418
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_11
+  - first:
+      213: -9148897478639737040
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_12
+  - first:
+      213: 3489096387759492363
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_13
+  - first:
+      213: 8519015682392617987
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_14
+  - first:
+      213: -5675115012944122336
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_15
+  - first:
+      213: -65735723592303055
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_16
+  - first:
+      213: -1188663751067682577
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_17
+  - first:
+      213: 952783862095992422
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_18
+  - first:
+      213: -4029451248861841807
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_19
+  - first:
+      213: -5268730581719310207
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_20
+  - first:
+      213: -4344025876694212693
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_21
+  - first:
+      213: 4989823175260762969
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_22
+  - first:
+      213: -2995425043994957813
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_23
+  - first:
+      213: -8420151731036941572
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_24
+  - first:
+      213: 2259494187651627283
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_25
+  - first:
+      213: 5894606888537719538
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_26
+  - first:
+      213: 2609469786581244652
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_27
+  - first:
+      213: 8097881708752884971
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_28
+  - first:
+      213: 4048248218040047469
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_29
+  - first:
+      213: -7578572483470427903
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_30
+  - first:
+      213: -6344649517858239400
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_31
+  - first:
+      213: -7847548035903903272
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_32
+  - first:
+      213: 6392988650816141031
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_33
+  - first:
+      213: 1446123108425418908
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_34
+  - first:
+      213: -6976990994217772620
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_35
+  - first:
+      213: -900820025738093700
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_36
+  - first:
+      213: -9041067986741636404
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_37
+  - first:
+      213: -2517596343088323955
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_38
+  - first:
+      213: 8387390841575214566
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_39
+  - first:
+      213: 9156223829738941793
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_40
+  - first:
+      213: -1624163797309247918
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_41
+  - first:
+      213: 5036740017162706735
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_42
+  - first:
+      213: -4884645315372248297
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_43
+  - first:
+      213: 1813916129366764937
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_44
+  - first:
+      213: 1766699224149024381
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_45
+  - first:
+      213: -1786403875686542721
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_46
+  - first:
+      213: 7912519234564119551
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_47
+  - first:
+      213: 1488715255495807189
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_48
+  - first:
+      213: 5926465296889154482
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_49
+  - first:
+      213: 1275110043648260793
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_50
+  - first:
+      213: -3992386747971106669
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_51
+  - first:
+      213: -1237864955890404183
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_52
+  - first:
+      213: -4648376679345136524
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_53
+  - first:
+      213: 4074277107116197753
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_54
+  - first:
+      213: -4491670888163231175
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_55
+  - first:
+      213: 5997270479195035335
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_56
+  - first:
+      213: -4415858327258710621
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_57
+  - first:
+      213: 6381720819523806157
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_58
+  - first:
+      213: -1823959493897603867
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_59
+  - first:
+      213: -571502202688530245
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_60
+  - first:
+      213: -8709321819556185520
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_61
+  - first:
+      213: 873653986202679108
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_62
+  - first:
+      213: -264394601652789429
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_63
+  - first:
+      213: 7551906966591333087
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_64
+  - first:
+      213: -4311160639534068303
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_65
+  - first:
+      213: 1676652542322486953
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_66
+  - first:
+      213: -450531037126759482
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_67
+  - first:
+      213: -7484044259408682597
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_68
+  - first:
+      213: 5701559356473152069
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_69
+  - first:
+      213: 5314136406523310815
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_70
+  - first:
+      213: 3191286256792121011
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_71
+  - first:
+      213: 9209305296195155493
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_72
+  - first:
+      213: -5742780631724656121
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_73
+  - first:
+      213: -8810074590012902663
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_74
+  - first:
+      213: -7513643234242333126
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_75
+  - first:
+      213: -3800511636522364579
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_76
+  - first:
+      213: -2949490268805096131
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_77
+  - first:
+      213: -1147936977235373223
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_78
+  - first:
+      213: 186860308789468057
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_79
+  - first:
+      213: 1607996983872734326
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_80
+  - first:
+      213: 9213057407956187058
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_81
+  - first:
+      213: 6182401946132485024
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_82
+  - first:
+      213: -8672501621083859918
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_83
+  - first:
+      213: 8121682267067431786
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_84
+  - first:
+      213: 1657471735858182034
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_85
+  - first:
+      213: 341263047926233169
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_86
+  - first:
+      213: -6271218538646996254
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_87
+  - first:
+      213: -526052578955060817
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_88
+  - first:
+      213: 1880602198760696967
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_89
+  - first:
+      213: 3864837676323534509
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_90
+  - first:
+      213: -4186248348142382046
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_91
+  - first:
+      213: 8509565313331207222
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_92
+  - first:
+      213: -1482600898014503245
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_93
+  - first:
+      213: 7160780101353586315
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_94
+  - first:
+      213: -2372083220492828522
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_95
+  - first:
+      213: -107473187335326278
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_96
+  - first:
+      213: 5445865579567891333
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_97
+  - first:
+      213: -7924745666650696747
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_98
+  - first:
+      213: 4545531842633123715
+    second: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 701
+        width: 243
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c851ccc9d541fc00800000000000000
+      internalID: 932603399587846337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 701
+        width: 131
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffe34bddfdf158f0800000000000000
+      internalID: -553382012442644487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 704
+        width: 160
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846764b3ddd381e60800000000000000
+      internalID: 7933158764004669000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 696
+        width: 176
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627065b77550aa600800000000000000
+      internalID: 480202183557908262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 700
+        width: 255
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c41712c8a9e8e10800000000000000
+      internalID: 2201867194477923418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 654
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5ba7e0e6f0029e0800000000000000
+      internalID: -1648300498253859395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 654
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8870966ab6d1ce00800000000000000
+      internalID: 1063367083109152908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 655
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8761ea4039bf8b80800000000000000
+      internalID: -8390283963702089843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 654
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4427a611d267c5aa0800000000000000
+      internalID: -6170927453466627516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 654
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e061dc1cf4ccac320800000000000000
+      internalID: 2579098379548956174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 654
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f9ce9dd81b8d3b0800000000000000
+      internalID: -5487440923146281124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 684
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7cb9d6b6a4af790800000000000000
+      internalID: -7495596804543887418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 654
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03726335736980180800000000000000
+      internalID: -9148897478639737040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 654
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dc08bbda2cb6030800000000000000
+      internalID: 3489096387759492363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 654
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3047ef0a0af993670800000000000000
+      internalID: 8519015682392617987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 654
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02eaaf9b6f0fd31b0800000000000000
+      internalID: -5675115012944122336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 654
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e3a3a25b5761ff0800000000000000
+      internalID: -65735723592303055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 684
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe83a30cd94018fe0800000000000000
+      internalID: -1188663751067682577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 654
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666d4ffdfd7f83d00800000000000000
+      internalID: 952783862095992422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 654
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176f5d720738418c0800000000000000
+      internalID: -4029451248861841807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 654
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180226b6375b1e6b0800000000000000
+      internalID: -5268730581719310207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 684
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf59841b7be6b3c0800000000000000
+      internalID: -4344025876694212693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 655
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953fd6d9db96f3540800000000000000
+      internalID: 4989823175260762969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 654
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b082f5dfacc1e66d0800000000000000
+      internalID: -2995425043994957813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 654
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf217accc9c952b80800000000000000
+      internalID: -8420151731036941572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 654
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319f80b0ef55b5f10800000000000000
+      internalID: 2259494187651627283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 645
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f28cd1fbb9ddc150800000000000000
+      internalID: 5894606888537719538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 655
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea1a4102f2b63420800000000000000
+      internalID: 2609469786581244652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 655
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4595b7284716070800000000000000
+      internalID: 8097881708752884971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 654
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6792e64e444e2830800000000000000
+      internalID: 4048248218040047469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 655
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109f132ba7083d690800000000000000
+      internalID: -7578572483470427903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 654
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cc4bff0e643f7a0800000000000000
+      internalID: -6344649517858239400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 654
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d92222b3a8e71390800000000000000
+      internalID: -7847548035903903272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 654
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6fff07e4578b850800000000000000
+      internalID: 6392988650816141031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 654
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c984e232e49a11410800000000000000
+      internalID: 1446123108425418908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 655
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9dc8c08afbc2f90800000000000000
+      internalID: -6976990994217772620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 397
+        width: 177
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b925795f4af73f0800000000000000
+      internalID: -900820025738093700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 585
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2db14519ca78280800000000000000
+      internalID: -9041067986741636404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 395
+        width: 197
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82e56af673bf0dd0800000000000000
+      internalID: -2517596343088323955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 402
+        width: 181
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed8478388ff56470800000000000000
+      internalID: 8387390841575214566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 397
+        width: 123
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d6e87bf01711f70800000000000000
+      internalID: 9156223829738941793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 397
+        width: 156
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e255ca1afc579e0800000000000000
+      internalID: -1624163797309247918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 546
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f5afc1c5816e540800000000000000
+      internalID: 5036740017162706735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 347
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713167337f0463cb0800000000000000
+      internalID: -4884645315372248297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 346
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98de14feb135c2910800000000000000
+      internalID: 1813916129366764937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 337
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e5c508593948810800000000000000
+      internalID: 1766699224149024381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 376
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72925cc32b6537e0800000000000000
+      internalID: -1786403875686542721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 346
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbd3ae425aeecd60800000000000000
+      internalID: 7912519234564119551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 346
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0588723aaf8a410800000000000000
+      internalID: 1488715255495807189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 346
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb02caa9c80f3250800000000000000
+      internalID: 5926465296889154482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 348
+        width: 70
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9baff2134d912b110800000000000000
+      internalID: 1275110043648260793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 348
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3988431c7613898c0800000000000000
+      internalID: -3992386747971106669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 344
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a47f30916832dee0800000000000000
+      internalID: -1237864955890404183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 348
+        width: 81
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c5c6dc906ad7fb0800000000000000
+      internalID: -4648376679345136524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 376
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977ca26417dba8830800000000000000
+      internalID: 4074277107116197753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 346
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a311700216aa1c0800000000000000
+      internalID: -4491670888163231175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 346
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c65b56d9b59a3350800000000000000
+      internalID: 5997270479195035335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 347
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad3b416f38b7b2c0800000000000000
+      internalID: -4415858327258710621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 346
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc36e67064d609850800000000000000
+      internalID: 6381720819523806157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 346
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e43889018effa6e0800000000000000
+      internalID: -1823959493897603867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 346
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8956c46cd9118f0800000000000000
+      internalID: -571502202688530245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 346
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a7bc6f2f5422780800000000000000
+      internalID: -8709321819556185520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 346
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447f630fba7df1c00800000000000000
+      internalID: 873653986202679108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 376
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f54f7b28ea45cf0800000000000000
+      internalID: -264394601652789429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_64
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 346
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd26978df53cdc860800000000000000
+      internalID: 7551906966591333087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_65
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 337
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd0de66d3eab24c0800000000000000
+      internalID: -4311160639534068303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_66
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 346
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae23ec9a9aa44710800000000000000
+      internalID: 1676652542322486953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_67
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 346
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb65c3a8646fb9f0800000000000000
+      internalID: -450531037126759482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_68
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 96
+        width: 171
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91e4a2f565532890800000000000000
+      internalID: -7484044259408682597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_69
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 97
+        width: 165
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542136cc602002f40800000000000000
+      internalID: 5701559356473152069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_70
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 112
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2facef7ea9fb940800000000000000
+      internalID: 5314136406523310815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_71
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 204
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be2ea041f9b94c20800000000000000
+      internalID: 3191286256792121011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_72
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 96
+        width: 105
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526f5d7bf560ecf70800000000000000
+      internalID: 9209305296195155493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_73
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 205
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70afe07217b8d40b0800000000000000
+      internalID: -5742780631724656121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_74
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 290
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2f59196d35cb580800000000000000
+      internalID: -8810074590012902663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_75
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 187
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36f7f5994d2ab790800000000000000
+      internalID: -7513643234242333126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_76
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 188
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5198547dced14bc0800000000000000
+      internalID: -3800511636522364579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_77
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 168
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d96634a3e4117d0800000000000000
+      internalID: -2949490268805096131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_78
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 166
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9539957b665b110f0800000000000000
+      internalID: -1147936977235373223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_79
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 144
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b1408f57cd79200800000000000000
+      internalID: 186860308789468057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_80
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 142
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67442afbcb0c05610800000000000000
+      internalID: 1607996983872734326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_81
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 124
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7728056ea5bdf70800000000000000
+      internalID: 9213057407956187058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_82
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 124
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a319e170dd4cc550800000000000000
+      internalID: 6182401946132485024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 166
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2341c4979b515a780800000000000000
+      internalID: -8672501621083859918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_84
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 47
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bb42bcdf206b070800000000000000
+      internalID: 8121682267067431786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_85
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 48
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297b31913c5800710800000000000000
+      internalID: 1657471735858182034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_86
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 47
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1583c9a1fe86cb400800000000000000
+      internalID: 341263047926233169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_87
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 48
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaf91727f728f8a0800000000000000
+      internalID: -6271218538646996254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_88
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 38
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9943277f513b8f0800000000000000
+      internalID: -526052578955060817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_89
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 48
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c23f46cbd391a10800000000000000
+      internalID: 1880602198760696967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_90
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 47
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da67fcbc369a2a530800000000000000
+      internalID: 3864837676323534509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_91
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 38
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224586b9e4577e5c0800000000000000
+      internalID: -4186248348142382046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_92
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 47
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c971e119c081670800000000000000
+      internalID: 8509565313331207222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_93
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 48
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be9b22a65ebc6be0800000000000000
+      internalID: -1482600898014503245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_94
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 47
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ebddf0093306360800000000000000
+      internalID: 7160780101353586315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_95
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 47
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6904cd8f0eaa41fd0800000000000000
+      internalID: -2372083220492828522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_96
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 48
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5bffd94bd228ef0800000000000000
+      internalID: -107473187335326278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_97
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 47
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583cba424e9939b40800000000000000
+      internalID: 5445865579567891333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_98
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 48
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d318f3adc5a50290800000000000000
+      internalID: -7924745666650696747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_99
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 48
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387cf5ba029f41f30800000000000000
+      internalID: 4545531842633123715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_0: 932603399587846337
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_1: -553382012442644487
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_10: -5487440923146281124
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_11: -7495596804543887418
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_12: -9148897478639737040
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_13: 3489096387759492363
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_14: 8519015682392617987
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_15: -5675115012944122336
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_16: -65735723592303055
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_17: -1188663751067682577
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_18: 952783862095992422
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_19: -4029451248861841807
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_2: 7933158764004669000
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_20: -5268730581719310207
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_21: -4344025876694212693
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_22: 4989823175260762969
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_23: -2995425043994957813
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_24: -8420151731036941572
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_25: 2259494187651627283
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_26: 5894606888537719538
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_27: 2609469786581244652
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_28: 8097881708752884971
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_29: 4048248218040047469
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_3: 480202183557908262
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_30: -7578572483470427903
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_31: -6344649517858239400
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_32: -7847548035903903272
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_33: 6392988650816141031
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_34: 1446123108425418908
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_35: -6976990994217772620
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_36: -900820025738093700
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_37: -9041067986741636404
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_38: -2517596343088323955
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_39: 8387390841575214566
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_4: 2201867194477923418
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_40: 9156223829738941793
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_41: -1624163797309247918
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_42: 5036740017162706735
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_43: -4884645315372248297
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_44: 1813916129366764937
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_45: 1766699224149024381
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_46: -1786403875686542721
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_47: 7912519234564119551
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_48: 1488715255495807189
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_49: 5926465296889154482
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_5: -1648300498253859395
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_50: 1275110043648260793
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_51: -3992386747971106669
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_52: -1237864955890404183
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_53: -4648376679345136524
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_54: 4074277107116197753
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_55: -4491670888163231175
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_56: 5997270479195035335
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_57: -4415858327258710621
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_58: 6381720819523806157
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_59: -1823959493897603867
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_6: 1063367083109152908
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_60: -571502202688530245
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_61: -8709321819556185520
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_62: 873653986202679108
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_63: -264394601652789429
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_64: 7551906966591333087
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_65: -4311160639534068303
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_66: 1676652542322486953
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_67: -450531037126759482
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_68: -7484044259408682597
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_69: 5701559356473152069
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_7: -8390283963702089843
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_70: 5314136406523310815
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_71: 3191286256792121011
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_72: 9209305296195155493
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_73: -5742780631724656121
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_74: -8810074590012902663
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_75: -7513643234242333126
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_76: -3800511636522364579
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_77: -2949490268805096131
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_78: -1147936977235373223
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_79: 186860308789468057
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_8: -6170927453466627516
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_80: 1607996983872734326
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_81: 9213057407956187058
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_82: 6182401946132485024
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_83: -8672501621083859918
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_84: 8121682267067431786
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_85: 1657471735858182034
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_86: 341263047926233169
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_87: -6271218538646996254
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_88: -526052578955060817
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_89: 1880602198760696967
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_9: 2579098379548956174
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_90: 3864837676323534509
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_91: -4186248348142382046
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_92: 8509565313331207222
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_93: -1482600898014503245
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_94: 7160780101353586315
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_95: -2372083220492828522
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_96: -107473187335326278
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_97: 5445865579567891333
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_98: -7924745666650696747
+      Gemini_Generated_Image_u7o0kku7o0kku7o0-Photoroom_99: 4545531842633123715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
