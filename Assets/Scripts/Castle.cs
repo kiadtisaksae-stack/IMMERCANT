@@ -6,8 +6,12 @@ public class Castle : MonoBehaviour
     [Header("Visual Settings")]
     [SerializeField] private float bounceAmount = 0.5f;
     [SerializeField] private float duration = 0.25f;
+    public string villageName;
+    //public List<Village> neighbors;
 
     private Vector3 originalScale;
+    [HideInInspector]
+    public Vector2 position;
 
     private void Start()
     {
