@@ -718,6 +718,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77153b4e02df3744ca0ac76ed535e031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapCameraControl
+  moveSpeed: 10
+  zoomSpeed: 2
+  minZoom: 2
+  maxZoom: 10
+  zoomInButton: {fileID: 0}
+  zoomOutButton: {fileID: 0}
+  moveLeft: {fileID: 0}
+  moveRight: {fileID: 0}
+  moveUp: {fileID: 0}
+  moveDown: {fileID: 0}
+  mapBounds: {fileID: 0}
+  player: {fileID: 0}
+  smoothSpeed: 5
+  viewportMargin: 0.25
 --- !u!114 &1207987776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -746,6 +760,9 @@ MonoBehaviour:
   interactableLayer:
     serializedVersion: 2
     m_Bits: 4294967295
+  currentWaypoint: {fileID: 0}
+  moveSpeed: 5
+  isMoving: 0
 --- !u!114 &1207987778
 MonoBehaviour:
   m_ObjectHideFlags: 0

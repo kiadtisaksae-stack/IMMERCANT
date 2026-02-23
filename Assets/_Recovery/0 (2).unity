@@ -167,6 +167,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &30084361
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -318,6 +321,9 @@ MonoBehaviour:
   interactableLayer:
     serializedVersion: 2
     m_Bits: 4294967295
+  currentWaypoint: {fileID: 0}
+  moveSpeed: 5
+  isMoving: 0
 --- !u!114 &71743704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,6 +586,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &140029226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -732,6 +741,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &142064702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -884,6 +896,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &150133229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1216,6 +1231,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &247243686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1477,6 +1495,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &288365101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1850,6 +1871,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &399530780
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2092,6 +2116,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &415266850
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2229,6 +2256,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &418818491
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2396,6 +2426,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &420735960
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2548,6 +2581,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &440789064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2700,6 +2736,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &443533883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2852,6 +2891,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &459963055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3004,6 +3046,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &464091371
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3269,6 +3314,9 @@ MonoBehaviour:
   moveUp: {fileID: 1980288656}
   moveDown: {fileID: 2094267189}
   mapBounds: {fileID: 222689487}
+  player: {fileID: 0}
+  smoothSpeed: 5
+  viewportMargin: 0.25
 --- !u!1 &526957192
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,6 +3365,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &526957195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3559,6 +3610,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &605170605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3711,6 +3765,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &610971969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4020,6 +4077,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &652562064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4172,6 +4232,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.25
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &670269775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4324,6 +4387,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &708376696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4606,6 +4672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &789671050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4758,6 +4827,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &835601224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4985,6 +5057,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &891734425
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5137,6 +5212,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1069239435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5289,6 +5367,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1085518634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5441,6 +5522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1099710390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5978,6 +6062,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1128804023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6220,6 +6307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1244758320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6372,6 +6462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1245502009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6524,6 +6617,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1246615850
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6676,6 +6772,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1255249333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6828,6 +6927,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1272978028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6980,6 +7082,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1290017698
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7167,6 +7272,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1314627953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7319,6 +7427,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1363808007
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7619,6 +7730,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1424088953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7771,6 +7885,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1512861679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7923,6 +8040,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1618028051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8075,6 +8195,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1625302379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8227,6 +8350,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1633297018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8413,6 +8539,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1744915083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8565,6 +8694,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1768854072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8842,6 +8974,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1812725241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8994,6 +9129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1815740273
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9146,6 +9284,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1820497032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9298,6 +9439,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1829346248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9450,6 +9594,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1855764154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9692,6 +9839,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1866460915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9844,6 +9994,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1896859846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10086,6 +10239,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &1964482975
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10512,6 +10668,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &2031775682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10664,6 +10823,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &2049075777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10891,6 +11053,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &2091298462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11191,6 +11356,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   bounceAmount: 0.5
   duration: 0.25
+  entryPoint: {fileID: 0}
+  villageName: 
+  position: {x: 0, y: 0}
 --- !u!61 &2096708871
 BoxCollider2D:
   m_ObjectHideFlags: 0
