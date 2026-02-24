@@ -2,16 +2,24 @@
 
 public class BattleManager : MonoBehaviour
 {
-    public void LostBattle()
+    // ลากวัตถุที่มีสคริปต์ MainGameplayController มาใส่ในช่องนี้
+    public MapTravel gameController;
+    private void Start()
     {
-        // เมื่อกดปุ่ม 'หนี' หรือ 'ชนะ' ให้เรียกฟังก์ชันนี้
-        BattleBridge.IsBattleActive = false;
+        // ค้นหา MapTravel อัตโนมัติถ้าตัวแปรยังว่างอยู่
+        if (gameController == null)
+        {
+            gameController = FindFirstObjectByType<MapTravel>();
+        }
     }
     public void WinBattle()
     {
-                // เมื่อชนะศัตรูทั้งหมด ให้เรียกฟังก์ชันนี้
-        BattleBridge.IsBattleActive = false;
+        // สั่งผ่านตัวคุมหลัก
+        gameController.FinishBattleProcess();
     }
-
-
+    public void LostBattle()
+    {
+        // สั่งผ่านตัวคุมหลัก
+        gameController.LoseBattleProcess();
+    }
 }

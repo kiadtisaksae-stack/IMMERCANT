@@ -25,6 +25,17 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         // ค้นหา BattleManager อัตโนมัติถ้าลืมลากใส่
+        //if (battleManager == null) battleManager = FindFirstObjectByType<BattleManager>();
+
+        //if (spawnPoints.Count > 0 && enemyPrefabs.Count > 0)
+        //{
+        //    StartCoroutine(SpawnRoutine());
+        //}
+    }
+    private void OnEnable()
+    {
+        // รีเซ็ตสถานะการเกิดทุกครั้งที่เปิดขึ้นมาใหม่ ป้องกันอาการค้าง
+        spawnedCount = 0;
         if (battleManager == null) battleManager = FindFirstObjectByType<BattleManager>();
 
         if (spawnPoints.Count > 0 && enemyPrefabs.Count > 0)
@@ -32,6 +43,7 @@ public class EnemySpawner : MonoBehaviour
             StartCoroutine(SpawnRoutine());
         }
     }
+    
 
     IEnumerator SpawnRoutine()
     {
@@ -73,22 +85,20 @@ public class EnemySpawner : MonoBehaviour
         Debug.Log("<color=green>[Spawner] ศัตรูหมดแล้ว! ชนะการต่อสู้!</color>");
         if (battleManager != null)
         {
+            Debug.Log("<color=yellow>[Spawner] แจ้ง BattleManager ว่าชนะการต่อสู้!</color>");
             battleManager.WinBattle();
         }
     }
 
     void SpawnRandomEnemy()
     {
-        // สุ่มเลือก Prefab
         GameObject selectedPrefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Count)];
-
-        // สุ่มเลือกจุดเกิด
         Transform selectedPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
 
-        // สร้างศัตรู
-        Instantiate(selectedPrefab, selectedPoint.position, Quaternion.identity);
+        // ใส่ 'transform' (ตัว Spawner เอง) เป็น Parent 
+        // เพื่อการันตีว่ามอนสเตอร์จะอยู่ในฉาก Battle และโดนลบพร้อมกัน
+        Instantiate(selectedPrefab, selectedPoint.position, Quaternion.identity, transform);
     }
-
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

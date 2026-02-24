@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private IMMInput inputReader;
     [SerializeField] private LayerMask interactableLayer;
     private Camera mainCamera;
-    private EncounterManager encounterManager;
+    [SerializeField] private MapTravel mapTravel;
 
     [Header("Movement Settings")]
     public Waypoint currentWaypoint;
@@ -21,12 +21,19 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         isMoving = false;
-        encounterManager = FindAnyObjectByType<EncounterManager>();
+        mapTravel = FindAnyObjectByType<MapTravel>();
         if (currentWaypoint != null)
             transform.position = currentWaypoint.transform.position;
     }
 
-    private void OnEnable() { if (inputReader != null) inputReader.OnMouseClick += HandleClick; }
+    private void OnEnable()
+    {
+        if (inputReader != null) inputReader.OnMouseClick += HandleClick;
+
+        // รีเซ็ตสถานะการเดินทุกครั้งที่แมพเปิดขึ้นมาใหม่ ป้องกันอาการค้าง
+        isMoving = false;
+        IsMoving = false;
+    }
     private void OnDisable() { if (inputReader != null) inputReader.OnMouseClick -= HandleClick; }
 
     private void HandleClick(Vector2 mousePosition)
@@ -67,30 +74,27 @@ public class PlayerController : MonoBehaviour
         foreach (var nextPoint in path)
         {
             // 1. เช็กดวงก่อนเลยว่า "ระหว่างทางไปจุดหน้า" จะโดนไหม?
-            if (encounterManager.WillEncounterTrigger(nextPoint))
+            if (mapTravel.CheckForEncounter(nextPoint.dangerLevel))
             {
-                // หยุดกลางทาง (0.5f คือครึ่งทาง)
+                // เดินไปหยุดกลางทาง
                 Vector3 midPoint = Vector3.Lerp(transform.position, nextPoint.transform.position, 0.5f);
                 yield return transform.DOMove(midPoint, (1f / moveSpeed) * 0.5f).WaitForCompletion();
 
-                // เรียกเหตุการณ์ต่อสู้และ "รอ" อยู่ตรงนี้
-                yield return StartCoroutine(encounterManager.StartBattleEvent(nextPoint.dangerLevel));
+                // สั่งเริ่มฉากสู้และรอจนกว่าจะจบ
+                yield return StartCoroutine(mapTravel.StartBattleProcess(nextPoint.dangerLevel));
 
-                // ตรวจสอบผลการต่อสู้ (ถ้าอยากทำระบบแพ้แล้วกลับเมือง)
-                // if (!BattleBridge.PlayerWon) { /* Logic กลับเมือง */ break; }
-
-                // เดินทางต่อจากจุดที่หยุด
+                // หลังจากสู้จบ (MapTravel เปิดแมพคืนแล้ว) ให้เดินต่อส่วนที่เหลือ
                 yield return transform.DOMove(nextPoint.transform.position, (1f / moveSpeed) * 0.5f).WaitForCompletion();
             }
             else
             {
-                // --- กรณี "ปลอดภัย" --- วิ่งยาวๆ ไปถึงจุดหมายเลย
+                // ปลอดภัย: วิ่งยาวไปที่จุดหมาย
                 yield return transform.DOMove(nextPoint.transform.position, 1f / moveSpeed)
                     .SetEase(Ease.Linear)
                     .WaitForCompletion();
             }
-
             currentWaypoint = nextPoint;
+
         }
 
         isMoving = false;
