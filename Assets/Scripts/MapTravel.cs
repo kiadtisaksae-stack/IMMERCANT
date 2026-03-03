@@ -19,6 +19,19 @@ public class MapTravel : MonoBehaviour
         // เริ่มต้นด้วยโหมดแผนที่
         ShowMap();
     }
+    private void DisableAllCapitalColliders()
+    {
+        // ค้นหา Capital ทุกตัวในฉาก (รวมถึงตัวที่ซ่อนอยู่)
+        Capital[] allCapitals = Object.FindObjectsByType<Capital>(FindObjectsSortMode.None);
+        foreach (Capital cap in allCapitals)
+        {
+            if (cap.Collider != null)
+            {
+                cap.Collider.enabled = false;
+                Debug.Log($"<color=orange>[MapTravel] Force Disabled Collider of: {cap.gameObject.name}</color>");
+            }
+        }
+    }
 
     public bool CheckForEncounter(float dangerLevel)
     {
@@ -27,6 +40,7 @@ public class MapTravel : MonoBehaviour
 
     public IEnumerator StartBattleProcess(float danger)
     {
+        DisableAllCapitalColliders();
         // 1. สลับพื้นที่
         mapRoot.SetActive(false);
         battleRoot.SetActive(true);

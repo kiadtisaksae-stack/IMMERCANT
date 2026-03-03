@@ -9,6 +9,7 @@ public class Castle : MonoBehaviour
     [Header("Navigation")]
     public Waypoint entryPoint;
     public string villageName;
+    private Capital capital;
     //public List<Village> neighbors;
 
     private Vector3 originalScale;
@@ -22,11 +23,23 @@ public class Castle : MonoBehaviour
         {
             FindNearestWaypoint();
         }
+        capital = GetComponent<Capital>();
     }
 
     // ฟังก์ชันที่จะถูกเรียกจาก PlayerController
     public void Interact()
     {
+        // ตรวจสอบก่อนว่า capital และ Collider มีตัวตนจริงไหม
+        if (capital != null && capital.Collider != null)
+        {
+            capital.Collider.enabled = true;
+        }
+        else
+        {
+            // ถ้ามันพัง จะได้รู้ว่าตัวไหนหายไป
+            Debug.LogError($"[Castle] {gameObject.name} หา Capital หรือ Collider ไม่เจอ!");
+            return;
+        }
         // ล้าง Tween เก่า (ถ้ามี) เพื่อไม่ให้บัคเวลาคลิกรัวๆ
         transform.DOKill();
         transform.localScale = originalScale;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
-
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private IMMInput inputReader;
@@ -15,11 +15,13 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     public bool isMoving = false;
     public bool IsMoving { get; private set; }
-
-    private void Awake() => mainCamera = Camera.main;
+    private Rigidbody2D rb;
+    private void Awake() => mainCamera = Camera.main ;
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+        
         isMoving = false;
         mapTravel = FindAnyObjectByType<MapTravel>();
         if (currentWaypoint != null)

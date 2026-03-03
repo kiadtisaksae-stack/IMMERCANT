@@ -1,0 +1,12 @@
+﻿using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+
+public class InventorySlot : MonoBehaviour
+{
+
+    
+
+}
