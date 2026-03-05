@@ -1,58 +1,53 @@
 ﻿using UnityEngine;
+using System.Collections.Generic; // ต้องใช้สำหรับ List
 
 [RequireComponent(typeof(CircleCollider2D))]
 public class Capital : MonoBehaviour
 {
     public GameObject capitalScene;
-    private Player player;
-    [HideInInspector]
-    public CircleCollider2D Collider;
+    [HideInInspector] public CircleCollider2D Collider;
     public GameObject mapRoot;
     public Sprite spriteCity;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        SetUp();
-    }
+
+    [Header("Shop Data")]
+    public List<ItemSO> localShopItems; // สินค้าที่เมืองนี้ขาย (ลากใส่ใน Inspector ได้เลย)
+
     private void Awake()
     {
         Collider = GetComponent<CircleCollider2D>();
         Collider.isTrigger = true;
         Collider.enabled = false;
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        SetUp();
     }
+
     public void SetUp()
     {
-        Collider = GetComponent<CircleCollider2D>();
-        mapRoot = GameObject.FindWithTag("MapRoot");
-        
-
-
+        if (mapRoot == null) mapRoot = GameObject.FindWithTag("MapRoot");
     }
-    
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (Collider.enabled == false) return;
+
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("gggggggggggggggggggggggggggggggggggggggggggggg");
-            // เปิด UI เมือง
             capitalScene.SetActive(true);
             mapRoot.SetActive(false);
 
-            // ส่งข้อมูลเมืองนี้ไปให้ LobbyUI รู้จัก (เพื่อตอนกดกลับจะได้คืนค่าถูกเมือง)
             LobbyUI lobby = capitalScene.GetComponentInChildren<LobbyUI>();
             if (lobby != null)
             {
-                lobby.SetupCity(this, spriteCity);
+                foreach (ItemSO item in localShopItems)
+                {
+                    item.maxStack = Random.Range(0, 99);
+                }
+                // --- ส่งข้อมูลไอเทมพ่วงไปด้วย ---
+                lobby.SetupCity(this, spriteCity, localShopItems);
             }
         }
     }
-   
 }

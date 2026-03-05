@@ -1,76 +1,87 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 using UnityEngine.EventSystems;
-using DG.Tweening; // ต้องใช้ DOTween
-
-public class InventorySlot : MonoBehaviour, IPointerClickHandler
+public class InventorySlot : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
 {
-    [Header("UI References")]
-    public Image icon;
-    public TextMeshProUGUI countText;
 
-    [Header("Settings")]
-    [SerializeField] private float selectScale = 1.15f; // ขนาดตอนถูกเลือก (115%)
-    [SerializeField] private float animDuration = 0.2f;
+    [Header("inventory Detail")]
+    public InventoryCanvas iventory;
+    [Header("Slot Detail")]
+    public ItemSO item;
+    public int stack;
 
-    private ItemSO currentItem;
-    private Vector3 originalScale;
-    private bool isSelected = false;
+    [Header("UI")]
+    public Color emptyColor;
+    public Color itemColor;
+    public Image icons;
+    public TextMeshProUGUI stackText;
+    [Header("Drag and Drop")]
+    public int siblingIndex;
+    public int craftInts;
 
-    private void Awake()
+
+    protected virtual void Start()
     {
-        originalScale = transform.localScale;
+        siblingIndex = transform.GetSiblingIndex();
+    }
+    void Update()
+    {
+
     }
 
-    public void SetItem(ItemSO item, int count)
+
+    public virtual void OnPointerClick(PointerEventData eventData)
     {
-        currentItem = item;
-        icon.sprite = item.icon;
-        countText.text = count > 1 ? count.ToString() : "";
-
-        // รีเซ็ตสถานะเมื่อวาดใหม่
-        isSelected = false;
-        transform.localScale = originalScale;
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (currentItem == null) return;
-
-        if (eventData.button == PointerEventData.InputButton.Left)
+        if (eventData.button == PointerEventData.InputButton.Right)
         {
-            // แจ้ง LobbyUI ให้จัดการเรื่อง "ใครถูกเลือก"
-            LobbyUI.Instance.SelectSlot(this);
+            if (item == iventory.Empty_Item || iventory == null)
+                return;
+
         }
-        else if (eventData.button == PointerEventData.InputButton.Right)
+
+
+    }
+    public virtual void OnPointerUp(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public virtual void OnPointerDown(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
+    }
+
+
+
+    public virtual void SetThisSlot(ItemSO newItem, int amount)
+    {
+        item = newItem;
+        Debug.Log(icons.name);
+        Debug.Log(newItem.icon);
+        icons.sprite = newItem.icon;
+
+
+        int ItemAmount = amount;//เก็บค่า amount ไว้กับ itemAmout
+
+        int intInthisSlot = Mathf.Clamp(ItemAmount, 0, newItem.maxStack);// รับค่า itemAmout ว่าเกืน newItem มั้ย ท่าเกินตัดออก
+        stack = intInthisSlot;
+
+        int amountLeft = ItemAmount - intInthisSlot;
+        if (amountLeft > 0)
         {
-            // ทำลายไอเทม
-            OnDestroyItem();
+            InventorySlot slot = iventory.IsEmptySlotLeft(newItem, this);//check slot ว่าง
+            if (slot == null)
+            {
+                return;
+            }
+            else
+            {
+                slot.SetThisSlot(newItem, amountLeft);
+            }
         }
     }
 
-    // ฟังก์ชันสั่งเด้งและขยายค้างไว้
-    public void SelectAnim()
-    {
-        isSelected = true;
-        transform.DOKill(); // หยุด Tween เก่าก่อน
-        // เล่นเอฟเฟกต์เด้ง (Punch) แล้วขยายค้างไว้ที่ selectScale
-        transform.DOPunchScale(Vector3.one * 0.1f, animDuration, 5, 1f);
-        transform.DOScale(originalScale * selectScale, animDuration).SetEase(Ease.OutBack);
-    }
 
-    // ฟังก์ชันสั่งหดกลับขนาดเดิม
-    public void DeselectAnim()
-    {
-        isSelected = false;
-        transform.DOKill();
-        transform.DOScale(originalScale, animDuration).SetEase(Ease.OutQuad);
-    }
-
-    private void OnDestroyItem()
-    {
-        GameManager.Instance.RemoveItem(currentItem, 1);
-        LobbyUI.Instance.RefreshInventoryUI();
-    }
+    
 }

@@ -3,124 +3,73 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using System.Linq;
 
 public class LobbyUI : MonoBehaviour
 {
     public static LobbyUI Instance;
-
-    [Header("Header UI")]
     public TextMeshProUGUI goldText;
-    public Button settingBtn;
-
-    [Header("Footer Buttons")]
-    public Button homeBtn;
-    public Button mercenaryBtn;
-    public Button drawBtn;
-    public Button bagBtn;
-    public Button worldMapBtn;
-    public Button shop;
-
-    [Header("Panels")]
-    public GameObject drawPanel;
-    public GameObject bagPanel;
-    public GameObject mercenaryPanel;
-    public GameObject estatePanel;
+    public Button shopBtn;
     public GameObject shopPanel;
+    public GameObject bagPanel;
 
-    [Header("Inventory Settings")]
-    public Transform inventoryContainer; // วัตถุที่มี Grid Layout Group
-    public GameObject slotPrefab;
+    [Header("Static Inventory Slots")]
+    public List<InventorySlot> inventorySlots = new List<InventorySlot>();
     private InventorySlot currentSelectedSlot;
 
-    [Header("City Data")]
     public Image imageCityBG;
     private Capital activeCapital;
 
-    private void Awake()
-    {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
-    }
+    private void Awake() => Instance = this;
 
     private void Start()
     {
-        // ผูกฟังก์ชันเข้ากับปุ่ม
-        worldMapBtn.onClick.AddListener(OnClickWorldMap);
-        drawBtn.onClick.AddListener(() => OpenPanel(drawPanel));
-        bagBtn.onClick.AddListener(() => { OpenPanel(bagPanel); RefreshInventoryUI(); });
-        mercenaryBtn.onClick.AddListener(() => OpenPanel(mercenaryPanel));
-        homeBtn.onClick.AddListener(CloseAllPanels);
-
+        if (shopBtn != null) shopBtn.onClick.AddListener(() => {
+            OpenPanel(shopPanel);
+            
+        });
         UpdateGoldText(GameManager.Instance.Gold);
     }
 
-    // --- ระบบจัดการฉากเมือง ---
-    public void SetupCity(Capital capital, Sprite citySprite)
+    public void SetupCity(Capital capital, Sprite citySprite, List<ItemSO> items)
     {
         activeCapital = capital;
         if (imageCityBG != null) imageCityBG.sprite = citySprite;
+
         UpdateGoldText(GameManager.Instance.Gold);
         CloseAllPanels();
     }
 
-    public void OnClickWorldMap()
+    public void RefreshInventoryUI()
     {
-        if (activeCapital != null)
-        {
-            if (activeCapital.mapRoot != null) activeCapital.mapRoot.SetActive(true);
-            activeCapital.Collider.enabled = false;
-            gameObject.SetActive(false);
-        }
+        var items = GameManager.Instance.inventory.ToList();
+  
     }
 
-    // --- ระบบจัดการหน้าจอ (Panels) ---
     public void OpenPanel(GameObject targetPanel)
     {
         CloseAllPanels();
         targetPanel.SetActive(true);
-        // เล่น Animation เล็กน้อยตอนเปิด Panel
+        targetPanel.transform.DOKill();
         targetPanel.transform.localScale = Vector3.one * 0.8f;
         targetPanel.transform.DOScale(1f, 0.25f).SetEase(Ease.OutBack);
     }
 
     public void CloseAllPanels()
     {
-        drawPanel.SetActive(false);
-        bagPanel.SetActive(false);
-        mercenaryPanel.SetActive(false);
-        if (estatePanel != null) estatePanel.SetActive(false);
-        currentSelectedSlot = null; // ล้างสถานะการเลือก
-    }
-
-    // --- ระบบคลังไอเทม (Inventory) ---
-    public void RefreshInventoryUI()
-    {
-        // ล้าง Slot เก่า
-        foreach (Transform child in inventoryContainer) Destroy(child.gameObject);
-
-        // สร้าง Slot ใหม่จากข้อมูลใน GameManager
-        foreach (var entry in GameManager.Instance.inventory)
-        {
-            GameObject obj = Instantiate(slotPrefab, inventoryContainer);
-            InventorySlot slot = obj.GetComponent<InventorySlot>();
-            slot.SetItem(entry.Key, entry.Value);
-        }
+        if (bagPanel) bagPanel.SetActive(false);
+        if (shopPanel) shopPanel.SetActive(false);
+        currentSelectedSlot = null;
     }
 
     public void SelectSlot(InventorySlot newSlot)
     {
-        if (currentSelectedSlot != null && currentSelectedSlot != newSlot)
-        {
-            currentSelectedSlot.DeselectAnim();
-        }
-        currentSelectedSlot = newSlot;
-        currentSelectedSlot.SelectAnim();
+
     }
 
     public void UpdateGoldText(int amount)
     {
         goldText.text = "Gold: " + amount.ToString("N0");
-        // เอฟเฟกต์ตัวเลขเด้งตอนเงินเปลี่ยน
         goldText.transform.DOPunchScale(Vector3.one * 0.1f, 0.2f);
     }
 }

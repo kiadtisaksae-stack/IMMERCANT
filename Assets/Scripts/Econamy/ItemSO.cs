@@ -1,10 +1,15 @@
 ﻿using UnityEngine;
+[CreateAssetMenu(fileName = "New Item", menuName = "Create new Item", order = 4)]
 
-[CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
 public class ItemSO : ScriptableObject
 {
-    public string itemName;
     public Sprite icon;
-    public int price;
-    public int maxStack = 99; // เพิ่มบรรทัดนี้
+    public string id;
+    public int ids;
+    public string itemName;
+    public string description;
+    public int maxStack;
+    [Header("In Game Obj")]
+    public GameObject gamePrefab;
+
 }

@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     public int Gold { get; private set; }
 
     [Header("Inventory")]
-    // เก็บไอเทมเป็น <ข้อมูลไอเทม, จำนวน>
     public Dictionary<ItemSO, int> inventory = new Dictionary<ItemSO, int>();
 
     private void Awake()
@@ -17,37 +16,20 @@ public class GameManager : MonoBehaviour
         if (Instance != null) { Destroy(gameObject); return; }
         Instance = this;
         DontDestroyOnLoad(gameObject);
-
-        Gold = 500; // เงินเริ่มต้น
+        Gold = 1000;
     }
 
-    // --- ระบบเงิน ---
-    public void AddGold(int amount)
-    {
-        Gold += amount;
-        NotifyUI();
-    }
-
+    public void AddGold(int amount) { Gold += amount; NotifyUI(); }
     public bool SpendGold(int amount)
     {
-        if (Gold >= amount)
-        {
-            Gold -= amount;
-            NotifyUI();
-            return true;
-        }
+        if (Gold >= amount) { Gold -= amount; NotifyUI(); return true; }
         return false;
     }
 
-    // --- ระบบไอเทม ---
     public void AddItem(ItemSO item, int amount)
     {
-        if (inventory.ContainsKey(item))
-            inventory[item] += amount;
-        else
-            inventory.Add(item, amount);
-
-        Debug.Log($"[Inventory] ได้รับ {item.itemName} x{amount}");
+        if (inventory.ContainsKey(item)) inventory[item] += amount;
+        else inventory.Add(item, amount);
     }
 
     public void RemoveItem(ItemSO item, int amount)
@@ -61,8 +43,6 @@ public class GameManager : MonoBehaviour
 
     private void NotifyUI()
     {
-        // สั่งให้ LobbyUI อัปเดตตัวเลขเงิน
-        LobbyUI lobby = FindFirstObjectByType<LobbyUI>();
-        if (lobby != null) lobby.UpdateGoldText(Gold);
+        if (LobbyUI.Instance != null) LobbyUI.Instance.UpdateGoldText(Gold);
     }
 }
