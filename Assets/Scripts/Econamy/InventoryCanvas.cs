@@ -8,19 +8,15 @@ public class InventoryCanvas : MonoBehaviour
     public static InventoryCanvas Instance;
     [Header("Inventory")]
     public ItemSO Empty_Item;
-    public Transform slotPrefab;
+    public GameObject slotPrefab;
     public Transform InventoryPanel;
     protected GridLayoutGroup gridLayoutGroup;
     [Space(5)]
-    public int slotAmount = 16;
+    public int slotAmount = 45;
     public InventorySlot[] inventorySlot;
-    [Header("Mini Canvas")]
-    public RectTransform miniCanvas;
-    public int carftInt;
     [Header("SaveData System")]
     [SerializeField]
     InventoryData invData;
-    [SerializeField] protected InventorySlot rigthClickSlot;
 
     // Start is called before the first frame update
     void Start()
@@ -61,7 +57,7 @@ public class InventoryCanvas : MonoBehaviour
         inventorySlot = new InventorySlot[slotAmount];
         for (int i = 0; i < slotAmount; i++)
         {
-            Transform slot = Instantiate(slotPrefab, InventoryPanel);// gเสก slot ออกมาใน panel
+            GameObject slot = Instantiate(slotPrefab, InventoryPanel);// gเสก slot ออกมาใน panel
             InventorySlot inveSlot = slot.GetComponent<InventorySlot>();
 
             inventorySlot[i] = inveSlot;
@@ -141,14 +137,6 @@ public class InventoryCanvas : MonoBehaviour
     {
         gridLayoutGroup.enabled = isControlled;
     }
-    #endregion
-    #region
-
-    public void SetRightClickSlot(InventorySlot slot)
-    {
-        rigthClickSlot = slot;
-    }
-
     #endregion
     #region SaveLoad Data
 

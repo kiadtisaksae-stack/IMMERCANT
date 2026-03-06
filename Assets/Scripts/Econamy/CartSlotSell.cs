@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class CartSlot : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
+public class CartSlotSell : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
 {
     public void OnPointerClick(PointerEventData eventData)
     {
