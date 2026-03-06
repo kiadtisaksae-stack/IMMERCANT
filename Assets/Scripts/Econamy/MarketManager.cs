@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 
 public class MarketManager : MonoBehaviour
@@ -9,6 +10,8 @@ public class MarketManager : MonoBehaviour
     [Header("Slots")]
     public List<itemForbuySlot> buySlots; // ลากใส่จาก Inspector หรือหาอัตโนมัติ
     public List<ItemForSellSlot> sellSlots;
+    public List<CartSlot> buycartsSlots;
+    public List<CartSlot> sellcartsSlots;
 
     [Header("Settings")]
     public Transform buyPanel;
@@ -16,6 +19,34 @@ public class MarketManager : MonoBehaviour
 
     private void Awake() => instance = this;
 
+    public void PutInCart(ItemSO item)
+    {
+        if (item == null || item == Empty) return;
+
+        // 1. ตรวจสอบก่อนว่าไอเทมนี้ "มีอยู่ในตะกร้าแล้วหรือยัง"
+        foreach (var cartSlot in buycartsSlots)
+        {
+            if (cartSlot.item == item)
+            {
+                // ถ้ามีแล้ว ให้สั่งเพิ่มจำนวนในช่องเดิม (ต้องเขียนฟังก์ชัน AddAmount ใน CartSlot)
+                cartSlot.AddAmount(1);
+                return;
+            }
+        }
+
+        // 2. ถ้ายังไม่มีในตะกร้า ให้หา "ช่องที่ยังว่างอยู่" (เป็น Empty)
+        foreach (var cartSlot in buycartsSlots)
+        {
+            if (cartSlot.item == Empty || cartSlot.item == null)
+            {
+                // ส่งไอเทมเข้าไปในช่องว่างนั้น
+                cartSlot.SetSlot(item, 1);
+                return;
+            }
+        }
+
+        Debug.LogWarning("ตะกร้าเต็มแล้ว!");
+    }
     // ฟังก์ชันรับข้อมูลไอเทมจากเมือง
     public void InputDataCity(List<ItemSO> inputitem)
     {
